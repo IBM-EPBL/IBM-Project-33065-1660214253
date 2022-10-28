@@ -1,0 +1,79 @@
+<section class="openinghours">
+    <div class="openinghourscontent section">
+        <div class="header">
+             <h2>Opening hours</h2>
+ <span id="open-status"><small class="openorclosed">We are</small></span>
+
+        </div>
+        <table class="opening-hours-table">
+            <tr id="Monday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
+                <td>Monday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Tuesday" itemprop="openingHours" title="Open Tuesday at 9am to 6pm">
+                <td>Tuesday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Wednesday" itemprop="openingHours" title="Open Wednesday at 9am to 6pm">
+                <td>Wednesday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Thursday" itemprop="openingHours" title="Open Thursday at 9am to 8pm">
+                <td>Thursday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">20:00</td>
+            </tr>
+            <tr id="Friday" itemprop="openingHours" title="Open Friday at 9am to 6pm">
+                <td>Friday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Saturday" itemprop="openingHours" title="Open Saturday at 10am to 6pm">
+                <td>Saturday</td>
+                <td class="opens">10:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Sunday" itemprop="openingHours" title="Open Sunday at 11am to 4pm">
+                <td>Sunday</td>
+                <td class="opens">11:00</td>
+                <td>-</td>
+                <td class="closes">16:00</td>
+            </tr>
+        </table>
+        <button style="cursor: pointer;" title="Make an Apointment Online" data-appointlet="u387">Make an Apointment Online</button>
+        <script>
+            (function(e, t, n, r) {
+                if (e) return;
+                t._appt = true;
+                var i = n.createElement(r),
+                    s = n.getElementsByTagName(r)[0];
+                i.async = true;
+                i.src = '//dje0x8zlxc38k.cloudfront.net/loaders/s-min.js';
+                s.parentNode.insertBefore(i, s)
+            })(window._appt, window, document, "script")
+        </script>
+    </div>
+</section>
+
+<script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "4848bbfc-6a00-43f2-8c9b-2726d0be4faa", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "a263cc19-dd9b-4aef-95af-890e154b206b", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
